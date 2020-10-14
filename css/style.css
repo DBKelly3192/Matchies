@@ -1,0 +1,198 @@
+body {
+  background-color: black;
+  /* font-family: 'Notable', sans-serif; */
+  font-family: 'Changa One', cursive;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+#wrapper {
+  width: 600px;
+  height: 600px;
+  margin: 50px auto;
+  background-image: url("pics/background.png");
+  background-color: blue;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#grid {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+}
+#cell0 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+#cell1 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+#cell2 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+#cell3 {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+#cell4 {
+  grid-column: 5 / span 1;
+  grid-row: 1 / span 1;
+}
+#cell5 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+#cell6 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+#cell7 {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
+#cell8 {
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 1;
+}
+#cell9 {
+  grid-column: 5 / span 1;
+  grid-row: 2 / span 1;
+}
+#cell10 {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+#cell11 {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+#cellCenter{
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+}
+#cell12 {
+  grid-column: 4 / span 1;
+  grid-row: 3 / span 1;
+}
+#cell13 {
+  grid-column: 5 / span 1;
+  grid-row: 3 / span 1;
+}
+#cell14 {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+#cell15 {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+#cell16 {
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 1;
+}
+#cell17 {
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 1;
+}
+#cell18 {
+  grid-column: 5 / span 1;
+  grid-row: 4 / span 1;
+}
+#cell19 {
+  grid-column: 1 / span 1;
+  grid-row: 5 / span 1;
+}
+#cell20 {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+}
+#cell21 {
+  grid-column: 3 / span 1;
+  grid-row: 5 / span 1;
+}
+#cell22 {
+  grid-column: 4 / span 1;
+  grid-row: 5 / span 1;
+}
+#cell23 {
+  grid-column: 5 / span 1;
+  grid-row: 5 / span 1;
+}
+#displayTop {
+  grid-column: 1 / span 5;
+  grid-row: 1 / span 2;
+  background-color: red;
+}
+#displayBottom {
+  grid-column: 1 / span 5;
+  grid-row: 4 / span 2;
+  background-color: red;
+}
+
+.scene {
+  width: 75px;
+  height: 75px;
+  perspective: 600px;
+}
+.card {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+}
+.centerCard {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+}
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+.centerCard.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+.card__face {
+  position: absolute;
+  width: 61px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 35px;
+  backface-visibility: hidden;
+}
+.card__face--front {
+  background-image: url('pics/cardBackground2.webp');
+  background-size: cover;
+}
+.card__face--back {
+  background: white;
+  transform: rotateY(180deg);
+}
