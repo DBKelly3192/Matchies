@@ -1,12 +1,12 @@
-# match_dees
+# Matchies
 
 Project numero uno! Our first project will touch on all the bases we've covered so far; HTML, CSS, and JavaScript. The game is called concentration. Essentially, a matching game, a really simple premise that allowed enough freedom for aggressive ingenuity! Pay attention though!
 
 ## Humble Beginnings
 
-![alt text](https://github.com/DBKelly3192/match_dees/blob/main/wireframe.jpg "Wireframe")
+![alt text](https://github.com/DBKelly3192/matchies/blob/main/wireframe.jpg "Wireframe")
 
-![alt text](https://github.com/DBKelly3192/match_dees/blob/main/brain_storming.jpg "Brain Storming")
+![alt text](https://github.com/DBKelly3192/matchies/blob/main/brain_storming.jpg "Brain Storming")
 
 ## Approaches Taken
 
