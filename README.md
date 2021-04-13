@@ -20,9 +20,9 @@ Project numero uno! Our first project will touch on all the bases we've covered 
   <summary>Click to expand.</summary>
 
   1. Stanly
-    * Ok, there are some cards face down on a blue background
-    * The cards flip over when they are clicked on to reveal various images
-    * That's about it
+  * Ok, there are some cards face down on a blue background
+  * The cards flip over when they are clicked on to reveal various images
+  * That's about it
 
   2. Tori 
     * Cards are still face down on a blue background
