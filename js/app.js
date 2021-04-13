@@ -49,7 +49,7 @@ class Game {
       setTimeout((index) => {this.flipAllCards(i)}, 9000 + (250 * i), i)
     }
 
-    setTimeout(() => {$('#message').text('MATCH\nDEES!')}, 15250)
+    setTimeout(() => {$('#message').text('MATCHIES!')}, 15250)
     setTimeout(() => {this.flipCenterCard()}, 15000)
     setTimeout(() => {this.flipCenterCard()}, 18000)
   }
