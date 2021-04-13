@@ -26,8 +26,8 @@ p {
   display: grid;
   align-items: center;
   justify-items: center;
-  grid-template-columns: 150px 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px 150px 150px;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
 }
 #cell0 {
   grid-column: 1 / span 1;
