@@ -2,6 +2,10 @@
 
 Project numero uno! Our first project will touch on all the bases we've covered so far; HTML, CSS, and JavaScript. The game is called concentration. Essentially, a matching game, a really simple premise that allowed enough freedom for aggressive ingenuity! Pay attention though!
 
+## Deployment
+
+* **GitHub Pages** - https://dbkelly3192.github.io/Matchies/
+
 ## Humble Beginnings
 
 ![alt text](https://github.com/DBKelly3192/matchies/blob/main/wireframe.jpg "Wireframe")
@@ -48,7 +52,7 @@ Project numero uno! Our first project will touch on all the bases we've covered 
 
   5. Diana
   * A single card is rendered face-down on a blue background
-  * The card flips to reveal a greeting
+  * The card flips to reveal a greetingc
   * A grid of cards is automatically rendered sequentially and face-up
   * After a period of time, the grid of cards automatically and sequentially flips
   * The cards flip over when they are clicked on to reveal various images
