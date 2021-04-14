@@ -4,7 +4,7 @@ Project numero uno! Our first project will touch on all the bases we've covered 
 
 ## Deployment
 
-* **GitHub Pages** - https://dbkelly3192.github.io/Matchies/
+* **GitHub Pages** - https://dbkelly3192.github.io/Matchies/ (Optimized for Chrome browser)
 
 ## Humble Beginnings
 <details>
