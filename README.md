@@ -7,10 +7,13 @@ Project numero uno! Our first project will touch on all the bases we've covered 
 * **GitHub Pages** - https://dbkelly3192.github.io/Matchies/
 
 ## Humble Beginnings
+<details>
+  <summary>Click to expand.</summary>
 
 ![alt text](https://github.com/DBKelly3192/matchies/blob/main/wireframe.jpg "Wireframe")
 
 ![alt text](https://github.com/DBKelly3192/matchies/blob/main/brain_storming.jpg "Brain Storming")
+</details>
 
 ## Approaches Taken
 
